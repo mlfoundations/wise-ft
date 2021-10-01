@@ -20,18 +20,19 @@ Bottom: On five distribution shifts derived from ImageNet (ImageNetV2, ImageNet-
 
 ### Overview
 
+WiSE-FT can be implemented in a few lines of code in addition to standard fine-tuning, as shown below. See [src/wise_ft.py](src/wise_ft.py) for more details.
+
 ```python
 # Load models
 zeroshot = ImageClassifier.load(zeroshot_checkpoint)
 finetuned = ImageClassifier.load(finetuned_checkpoint)
-theta_0 = {k: v.clone() for k, v in zeroshot.state_dict().items()}
-theta_1 = {k: v.clone() for k, v in finetuned.state_dict().items()}
-del zeroshot
+theta_0 = zeroshot.state_dict()
+theta_1 = finetuned.state_dict()
 
 # make sure checkpoints are compatible
 assert set(theta_0.keys()) == set(theta_1.keys())
 
-# evaluate with mixing coefficient alpha by interpolating between checkpoints
+# interpolate between checkpoints with mixing coefficient alpha
 theta = {
     key: (1-alpha) * theta_0[key] + alpha * theta_1[key]
     for key in theta_0.keys()
@@ -129,6 +130,7 @@ If you found this repository useful, please consider citing:
   title={Robust fine-tuning of zero-shot models},
   author={Wortsman, Mitchell and Ilharco, Gabriel and Li, Mike and Kim, Jong Wook and Hajishirzi, Hannaneh and Farhadi, Ali and Namkoong, Hongseok and Schmidt, Ludwig},
   journal={arXiv preprint arXiv:2109.01903},
+  note={\url{https://arxiv.org/abs/2109.01903}},
   year={2021}
 }
 ```
