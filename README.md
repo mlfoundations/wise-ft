@@ -16,6 +16,34 @@ Top left: Zero-shot CLIP models exhibit high effective robustness and moderate i
 Top right: Our method linearly interpolates between the zero-shot and fine-tuned models with a mixing coefficient alpha in [0,1].
 Bottom: On five distribution shifts derived from ImageNet (ImageNetV2, ImageNet-R, ImageNet Sketch, ObjectNet, and ImageNet-A), WiSE-FT improves average OOD accuracy by 8.7 percentage points (pp) when fine-tuning end-to-end (+2.1 pp when fine-tuning a linear classifier) while maintaining ID accuracy.
 
+## Code
+
+### Overview
+
+```python
+# Load models
+zeroshot = ImageClassifier.load(zeroshot_checkpoint)
+finetuned = ImageClassifier.load(finetuned_checkpoint)
+theta_0 = {k: v.clone() for k, v in zeroshot.state_dict().items()}
+theta_1 = {k: v.clone() for k, v in finetuned.state_dict().items()}
+del zeroshot
+
+# make sure checkpoints are compatible
+assert set(theta_0.keys()) == set(theta_1.keys())
+
+# evaluate with mixing coefficient alpha by interpolating between checkpoints
+theta = {
+    key: (1-alpha) * theta_0[key] + alpha * theta_1[key]
+    for key in theta_0.keys()
+}
+
+# update the model acccording to the new weights
+finetuned.load_state_dict(theta)
+
+# evaluate
+evaluate(finetuned, args)
+```
+
 ### Install dependencies
 
 ```bash
