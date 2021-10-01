@@ -1,0 +1,207 @@
+y,category_id,name,english
+0,0,empty,empty
+1,2,tayassu pecari,White-lipped peccary
+2,3,dasyprocta punctata,Central American agouti
+3,4,cuniculus paca,Lowland paca
+4,6,puma concolor,Cougar
+5,7,tapirus terrestris,South American tapir
+6,8,pecari tajacu,Collared peccary
+7,9,mazama americana,Red brocket
+8,10,leopardus pardalis,Ocelot
+9,12,geotrygon montana,Ruddy quail-dove
+10,13,nasua nasua,South American coati
+11,14,dasypus novemcinctus,Nine-banded armadillo
+12,15,eira barbara,Tayra
+13,16,didelphis marsupialis,Common opossum
+14,20,procyon cancrivorus,Crab-eating raccoon
+15,24,panthera onca,Jaguar
+16,25,myrmecophaga tridactyla,Giant anteater
+17,26,tinamus major,Great tinamou
+18,32,sylvilagus brasiliensis,Tapeti
+19,44,puma yagouaroundi,Jaguarundi
+20,50,leopardus wiedii,Margay
+21,62,mazama gouazoubira,Brown Brocket
+22,67,philander opossum,Gray four-eyed opossum
+23,70,capra aegagrus,Wild goat
+24,71,bos taurus,Cattle Cow Bull
+25,72,ovis aries,Sheep
+26,73,canis lupus,Wolf
+27,74,lepus saxatilis,Scrub hare
+28,78,papio anubis,Olive baboon
+29,80,genetta genetta,Common genet
+30,83,tragelaphus scriptus,Cape bushbuck
+31,89,herpestes sanguineus,Slender mongoose
+32,90,loxodonta africana,African bush elephant
+33,91,cricetomys gambianus,Gambian pouched rat
+34,92,raphicerus campestris,Steenbok
+35,94,hyaena hyaena,Striped hyena
+36,96,aepyceros melampus,Impala
+37,97,crocuta crocuta,Spotted hyena
+38,98,caracal caracal,Caracal
+39,99,equus ferus,Wild horse
+40,100,panthera leo,Lion
+41,101,tragelaphus oryx,Common eland
+42,102,kobus ellipsiprymnus,Waterbuck
+43,103,phacochoerus africanus,Common warthog
+44,104,panthera pardus,Leopard
+45,106,ichneumia albicauda,White-tailed mongoose
+46,108,canis mesomelas,Black-backed jackal
+47,110,syncerus caffer,African buffalo
+48,111,equus quagga,Plains zebra
+49,112,giraffa camelopardalis,Giraffe
+50,113,alcelaphus buselaphus,Hartebeest
+51,114,chlorocebus pygerythrus,Vervet monkey
+52,115,madoqua guentheri,Günther's dik-dik
+53,116,potamochoerus larvatus,Bushpig
+54,118,nanger granti,Grant's gazelle
+55,119,eudorcas thomsonii,Thomson's gazelle
+56,120,struthio camelus,Common ostrich
+57,121,orycteropus afer,Aardvark
+58,122,acinonyx jubatus,Cheetah
+59,123,eupodotis senegalensis,White-bellied bustard
+60,124,felis silvestris,Wildcat
+61,127,oryx beisa,East African oryx
+62,129,lophotis gindiana,Buff-crested bustard
+63,130,ardeotis kori,Kori bustard
+64,134,lissotis melanogaster,Black-bellied bustard
+65,139,argusianus argus,Great argus
+66,141,prionailurus bengalensis,Leopard cat
+67,142,hemigalus derbyanus,Banded palm civet
+68,144,muntiacus muntjak,Indian muntjac
+69,145,sus scrofa,Wild boar
+70,147,helarctos malayanus,Sun bear
+71,150,rusa unicolor,Sambar deer
+72,152,hystrix brachyura,Malayan porcupine
+73,153,pardofelis temminckii,Asian golden cat
+74,154,panthera tigris,Tiger
+75,156,lariscus insignis,Three-striped ground squirrel
+76,159,chalcophaps indica,Common emerald dove
+77,161,genetta tigrina,Cape genet
+78,162,hystrix cristata,Crested porcupine
+79,163,lycaon pictus,African wild dog
+80,166,procavia capensis,Rock hyrax
+81,175,canis familiaris,Dog
+82,177,unknown bird,unknown bird
+83,198,unknown bat,unknown bat
+84,221,momotus momota,Amazonian motmot
+85,230,dasyprocta fuliginosa,Black agouti
+86,235,geotrygon sp,Geotrygon
+87,240,nasua narica,White-nosed coati
+88,242,tamandua mexicana,Northern tamandua
+89,243,didelphis sp,opossum
+90,245,penelope purpurascens,crested guan
+91,251,phaetornis sp,hummingbird
+92,253,brotogeris sp,plain parakeet
+93,256,camelus dromedarius,dromedary
+94,257,otocyon megalotis,bat-eared fox
+95,258,acryllium vulturinum,vulturine guineafowl
+96,259,equus grevyi,zebra
+97,262,proteles cristata,aardwolf
+98,265,leptailurus serval,serval
+99,267,tragelaphus strepsiceros,greater kudu
+100,268,hippopotamus amphibius,hippopotamus
+101,273,burhinus capensis,spotted thick-knee
+102,291,paguma larvata,masked palm civet
+103,292,pardofelis marmorata,marbled cat
+104,294,cuon alpinus,dhole
+105,296,varanus salvator,asian water monitor
+106,299,martes flavigula,yellow-throated marten
+107,300,prionodon linsang,banded linsang
+108,301,rollulus rouloul,crested partridge
+109,302,lophura inornata,salvadori's pheasant
+110,306,polyplectron chalcurum,bronze-tailed peacock-pheasant
+111,307,manis javanica,sunda pangolin
+112,309,capricornis sumatraensis,sumatran serow
+113,310,macaca sp,macaque
+114,315,francolinus nobilis,handsome spurfowl
+115,316,cercopithecus lhoesti,L'Hoest's monkey
+116,317,cephalophus nigrifrons,black-fronted duiker
+117,318,atherurus africanus,african brush-tailed porcupine
+118,319,pan troglodytes,chimpanzee
+119,320,cercopithecus mitis,blue monkey
+120,321,funisciurus carruthersi,mountain squirrel
+121,322,motacilla flava,western yellow wagtail
+122,323,andropadus latirostris,yellow-whiskered greenbul
+123,324,andropadus virens,little greenbul
+124,325,thamnomys venustus,charming thicket rat
+125,326,protoxerus stangeri,forest giant squirrel
+126,327,paraxerus boehmi,Boehm's bush squirrel
+127,328,cephalophus silvicultor,yellow-backed duiker
+128,330,oenomys hypoxanthus,common rufous-nosed rat
+129,333,melocichla mentalis,moustached grass warbler
+130,334,hybomys univittatus,Peters's striped mouse
+131,335,colomys goslingi,african wading rat
+132,336,hylomyscus stella,stella wood mouse
+133,337,genetta servalina,servaline genet
+134,338,canis adustus,side-striped jackal
+135,340,mus minutoides,african pygmy mouse
+136,342,musophaga rossae,Ross's turaco
+137,344,turtur tympanistria,tambourine dove
+138,345,praomys tullbergi,tullberg's soft-furred mouse
+139,346,malacomys longipes,big-eared swamp rat
+140,350,alopochen aegyptiaca,egyptian goose
+141,352,deomys ferrugineus,link rat
+142,353,francolinus africanus,grey-winged francolin
+143,356,turdus olivaceus,olive thrush
+144,370,mazama sp,brocket deer
+145,371,urocyon cinereoargenteus,gray fox
+146,372,meleagris ocellata,ocellated turkey
+147,374,crax rubra,great curassow
+148,375,agouti paca,lowland paca
+149,376,tapirus bairdii,Baird's tapir
+150,377,procyon lotor,raccoon
+151,378,odocoileus virginianus,white-tailed deer
+152,379,leptotila plumbeiceps,grey-headed dove
+153,380,mazama temama,central American red brocket
+154,382,conepatus semistriatus,striped hog-nosed skunk
+155,384,mazama pandora,yucatan brown brocket
+156,385,ortalis vetula,plain chachalaca
+157,389,presbytis thomasi,Thomas's langur
+158,390,neofelis diardi,sunda clouded leopard
+159,391,arctonyx hoevenii,sumatran hog badger
+160,402,tragulus sp,mouse-deer
+161,405,dendrocitta occipitalis,sumatran treepie
+162,406,niltava sumatrana,rufous-vented niltava
+163,408,leiothrix argentauris,silver-eared mesia
+164,410,arborophila rubrirostris,red-billed partridge
+165,413,lophura sp,gallopheasants
+166,414,myiophoneus glaucinus,javan whistling thrush
+167,415,lophura erythrophthalma,crestless fireback
+168,416,spilornis cheela,crested serpent eagle
+169,417,myiophoneus caeruleus,blue whistling thrush
+170,418,herpestes semitorquatus,collared mongoose
+171,422,cerdocyon thous,crab-eating fox
+172,558,motorcycle,motorcycle
+173,559,peromyscus sp,deer mouse
+174,562,puma yagoroundi,jaguarundi
+175,563,tigrisoma mexicanum,bare-throated tiger heron
+176,565,claravis pretiosa,blue ground dove
+177,566,sciurus sp,red squirrel
+178,567,ave desconocida,unknown bird
+179,568,aramides cajanea,grey-cowled wood rail
+180,569,unknown dove,unknown dove
+181,571,mazama temama,central American red brocket
+99999,243,didelphis sp,opossum
+99999,245,penelope purpurascens,crested guan
+99999,251,phaetornis sp,hummingbird
+99999,253,brotogeris sp,plain parakeet
+99999,256,camelus dromedarius,dromedary
+99999,257,otocyon megalotis,bat-eared fox
+99999,258,acryllium vulturinum,vulturine guineafowl
+99999,259,equus grevyi,zebra
+99999,262,proteles cristata,aardwolf
+99999,265,leptailurus serval,serval
+99999,267,tragelaphus strepsiceros,greater kudu
+99999,268,hippopotamus amphibius,hippopotamus
+99999,273,burhinus capensis,spotted thick-knee
+99999,291,paguma larvata,masked palm civet
+99999,292,pardofelis marmorata,marbled cat
+99999,294,cuon alpinus,dhole
+99999,296,varanus salvator,asian water monitor
+99999,299,martes flavigula,yellow-throated marten
+99999,300,prionodon linsang,banded linsang
+99999,301,rollulus rouloul,crested partridge
+99999,302,lophura inornata,salvadori's pheasant
+99999,306,polyplectron chalcurum,bronze-tailed peacock-pheasant
+99999,307,manis javanica,sunda pangolin
+99999,309,capricornis sumatraensis,sumatran serow
