@@ -3,7 +3,7 @@
 This repository contains code for the paper [Robust fine-tuning of zero-shot models](https://arxiv.org/abs/2109.01903).
 
 <p align="center">
-<img src="images/figure1.png" alt="figure1" width="639" height="416"/>
+<img src="images/figure1.png" alt="figure1"/>
 </p>
 
 ### Abstract
