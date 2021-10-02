@@ -93,7 +93,7 @@ def parse_arguments():
     parser.add_argument(
         "--warmup_length",
         type=int,
-        default=0,
+        default=500,
     )
     parser.add_argument(
         "--epochs",
