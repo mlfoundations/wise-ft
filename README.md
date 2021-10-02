@@ -77,7 +77,7 @@ python src/wise_ft.py   \
     --alpha 0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0
 ```
 
-Sample command for running WiSE-FT from scratch:
+Sample command for running WiSE-FT from scratch using ViT-B/32:
 
 ```
 python src/wise_ft.py   \
