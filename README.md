@@ -73,6 +73,7 @@ python src/wise_ft.py   \
     --load=models/zeroshot.pt,models/finetuned.pt  \
     --results-db=results.jsonl  \
     --save=models/wiseft  \
+    --data-location=~/data \
     --alpha 0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0
 ```
 
@@ -90,6 +91,7 @@ python src/wise_ft.py   \
     --template=openai_imagenet_template  \
     --results-db=results.jsonl  \
     --save=models/wiseft/ViTB32  \
+    --data-location=~/data \
     --alpha 0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0
 ```
 
