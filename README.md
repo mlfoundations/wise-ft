@@ -11,7 +11,7 @@ This repository contains code for the paper [Robust fine-tuning of zero-shot mod
 <img src="images/figure1.png" alt="figure1"/>
 </p>
 
-Compared to standard fine-tuning, weight-space ensembles for fine-tuning (WiSE-FT) improve out-of-distribution (OOD) accuracy without decreasing in-distribution (ID) performance. 
+Compared to standard fine-tuning, weight-space ensembles for fine-tuning (WiSE-FT) improve out-of-distribution (OOD) accuracy without decreasing in-distribution (ID) performance.
 Top left: Zero-shot CLIP models exhibit high effective robustness and moderate in-distribution accuracy, while standard fine-tuning (end-to-end or with a linear classifier) attains higher ID accuracy and less effective robustness.
 Top right: Our method linearly interpolates between the zero-shot and fine-tuned models with a mixing coefficient alpha in [0,1].
 Bottom: On five distribution shifts derived from ImageNet (ImageNetV2, ImageNet-R, ImageNet Sketch, ObjectNet, and ImageNet-A), WiSE-FT improves average OOD accuracy by 8.7 percentage points (pp) when fine-tuning end-to-end (+2.1 pp when fine-tuning a linear classifier) while maintaining ID accuracy.
@@ -108,21 +108,21 @@ python src/scatter_plot.py  \
     --save plots
 ```
 
-### Expected results
-
-We show samples of expected behavior below when running the commands above using ViT-B/32:
+We show samples of expected behavior below when running the commands above using ViT-B/16 (models can be downloaded  [here](https://drive.google.com/drive/folders/1f56kjpRKPiNSaUxNDtETEDRkbDkZnpCQ?usp=sharing)):
 
 <p align="center">
-  <img alt="ImageNet-Sketch" src="images/ImageNetSketch.png" width="45%">
+  <img alt="ImageNet-Sketch" src="images/b16/ImageNetSketch.png" width="45%">
     &nbsp; &nbsp; &nbsp; &nbsp;
-  <img alt="ImageNet-A" src="images/ImageNetA.png" width="45%">
+  <img alt="ImageNet-A" src="images/b16/ImageNetA.png" width="45%">
 </p>
 <p align="center">
-  <img alt="ImageNet-R" src="images/ImageNetR.png" width="45%">
+  <img alt="ImageNet-R" src="images/b16/ImageNetR.png" width="45%">
     &nbsp; &nbsp; &nbsp; &nbsp;
-  <img alt="ImageNetV2" src="images/ImageNetV2.png" width="45%">
+  <img alt="ImageNetV2" src="images/b16/ImageNetV2.png" width="45%">
 </p>
-
+<p align="center">
+  <img alt="ObjectNet" src="images/b16/ImageNetR.png" width="45%">
+</p>
 
 ## Citing
 
