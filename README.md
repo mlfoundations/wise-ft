@@ -121,7 +121,7 @@ We show samples of expected behavior below when running the commands above using
   <img alt="ImageNetV2" src="images/b16/ImageNetV2.png" width="45%">
 </p>
 <p align="center">
-  <img alt="ObjectNet" src="images/b16/ImageNetR.png" width="45%">
+  <img alt="ObjectNet" src="images/b16/ObjectNet.png" width="45%">
 </p>
 
 ## Citing
