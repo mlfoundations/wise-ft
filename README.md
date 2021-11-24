@@ -1,6 +1,6 @@
 # Robust fine-tuning of zero-shot models
 
-This repository contains code for the paper [Robust fine-tuning of zero-shot models](https://arxiv.org/abs/2109.01903) by Mitchell Wortsman*, Gabriel Ilharco*,  Jong Wook Kim, Mike Li, Hannaneh Hajishirzi, Ali Farhadi, Hongseok Namkoong, Ludwig Schmidt.
+This repository contains code for the paper [Robust fine-tuning of zero-shot models](https://arxiv.org/abs/2109.01903) by Mitchell Wortsman*, Gabriel Ilharco*,  Jong Wook Kim, Mike Li, Simon Kornblith, Rebecca Roelofs, Raphael Gontijo-Lopes, Hannaneh Hajishirzi, Ali Farhadi, Hongseok Namkoong, Ludwig Schmidt.
 
 ### Abstract
 *Large pre-trained models such as CLIP offer consistent accuracy across a range of data distributions when performing zero-shot inference (i.e., without fine-tuning on a specific dataset).  Although existing fine-tuning approaches substantially improve accuracy in-distribution, they also reduce out-of-distribution robustness.  We address this tension by introducing a simple and effective method for improving robustness:  ensembling the weights of the zero-shot and fine-tuned models. Compared to standard fine-tuning, the resulting weight-space ensembles provide large accuracy improvements out-of-distribution, while matching or improving in-distribution accuracy.  On ImageNet and five derived distribution shifts, weight-space ensembles improve out-of-distribution accuracy by 2 to 10 percentage points while increasing in-distribution accuracy by nearly 1 percentage point relative to standard fine-tuning.  These improvements come at no additional computational cost during fine-tuning or inference.*
@@ -130,7 +130,7 @@ If you found this repository useful, please consider citing:
 ```bibtex
 @article{wortsman2021robust,
   title={Robust fine-tuning of zero-shot models},
-  author={Wortsman, Mitchell and Ilharco, Gabriel and Li, Mike and Kim, Jong Wook and Hajishirzi, Hannaneh and Farhadi, Ali and Namkoong, Hongseok and Schmidt, Ludwig},
+  author={Wortsman, Mitchell and Ilharco, Gabriel and Kim, Jong Wook and Li, Mike and Kornblith, Simon and Roelofs, Rebecca and Gontijo-Lopes, Raphael and Hajishirzi, Hannaneh and Farhadi, Ali and Namkoong, Hongseok and Schmidt, Ludwig},
   journal={arXiv preprint arXiv:2109.01903},
   note={\url{https://arxiv.org/abs/2109.01903}},
   year={2021}
