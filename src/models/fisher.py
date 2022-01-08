@@ -38,10 +38,10 @@ def compute_fisher(args):
     args.batch_size = 1
 
     model = ImageClassifier.load(os.path.expanduser(args.load))
+    model.process_images = True
 
     if _TRAIN_PREPROCESSING:
         preprocess_fn = model.train_preprocess
-        model.process_images = True
     else:
         preprocess_fn = model.val_preprocess
 
@@ -77,7 +77,7 @@ def compute_fisher(args):
         
         model.train()
         data_loader = get_dataloader(
-            dataset, is_train=True, args=args, image_encoder=None)
+            dataset, is_train=_TRAIN_PREPROCESSING, args=args, image_encoder=None)
 
         if _N_EXAMPLES_PER_EPOCH is not None:
             data_loader = itertools.islice(data_loader, 100)
