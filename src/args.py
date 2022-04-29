@@ -124,6 +124,18 @@ def parse_arguments():
         default=None,
         help="Directory for caching features and encoder",
     )
+    parser.add_argument(
+        "--fisher",
+        type=lambda x: x.split(","),
+        default=None,
+        help="TODO",
+    )
+    parser.add_argument(
+        "--fisher_floor",
+        type=float,
+        default=1e-8,
+        help="TODO",
+    )
     parsed_args = parser.parse_args()
     parsed_args.device = "cuda" if torch.cuda.is_available() else "cpu"
     

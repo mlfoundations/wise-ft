@@ -53,6 +53,22 @@ def torch_load(save_path, device=None):
     return classifier
 
 
+def fisher_save(fisher, save_path):
+    if os.path.dirname(save_path) != '':
+        os.makedirs(os.path.dirname(save_path), exist_ok=True)
+    fisher = {k: v.cpu() for k, v in fisher.items()}
+    with open(save_path, 'wb') as f:
+        pickle.dump(fisher, f)
+
+
+def fisher_load(save_path, device=None):
+    with open(save_path, 'rb') as f:
+        fisher = pickle.load(f)
+    if device is not None:
+        fisher = {k: v.to(device) for k, v in fisher.items()}
+    return fisher
+
+
 def get_logits(inputs, classifier):
     assert callable(classifier)
     if hasattr(classifier, 'to'):
